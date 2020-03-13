@@ -1,0 +1,13 @@
+{
+    "name": "bakteriyofaj/php-fn-aliases",
+    "description": "PHP global functions aliases",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammet Aygun",
+            "email": "ayg.muhammet@yahoo.com"
+        }
+    ],
+    "require": {}
+}

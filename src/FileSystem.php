@@ -1,0 +1,87 @@
+<?php
+
+namespace BakteriyoFaj\PhpFnAliases;
+
+class FileSystem extends PhpMethodCaller
+{
+    const BaseName            = "basename";            // Returns trailing name component of path
+    const Chgrp               = "chgrp";               // Changes file group
+    const Chmod               = "chmod";               // Changes file mode
+    const Chown               = "chown";               // Changes file owner
+    const ClearStatCache      = "clearstatcache";      // Clears file status cache
+    const Copy                = "copy";                // Copies file
+    const Delete              = "delete";              // See unlink or unset
+    const Dirname             = "dirname";             // Returns a parent directory's path
+    const DiskFreeSpace       = "disk_free_space";       // Returns available space on filesystem or disk partition
+    const DiskTotalSpace      = "disk_total_space";      // Returns the total size of a filesystem or disk partition
+    const Close               = "fclose";              // Closes an open file pointer
+    const EndOf               = "feof";                // Tests for end-of-file on a file pointer
+    const Flush               = "fflush";              // Flushes the output to a file
+    const GetChr              = "fgetc";               // Gets character from file pointer
+    const GetCsv              = "fgetcsv";             // Gets line from file pointer and parse for CSV fields
+    const Gets                = "fgets";               // Gets line from file pointer
+    const Getss               = "fgetss";              // Gets line from file pointer and strip HTML tags
+    const FileExists          = "file_exists";         // Checks whether a file or directory exists
+    const GetContents         = "file_get_contents";   // Reads entire file into a string
+    const PutContents         = "file_put_contents";   // Write data to a file
+    const Create              = "file";                // Reads entire file into an array
+    const AccessTime          = "fileatime";           // Gets last access time of file
+    const ChangeTime          = "filectime";           // Gets inode change time of file
+    const Group               = "filegroup";           // Gets file group
+    const Inode               = "fileinode";           // Gets file inode
+    const ModificationTime    = "filemtime";           // Gets file modification time
+    const Owner               = "fileowner";           // Gets file owner
+    const Perms               = "fileperms";           // Gets file permissions
+    const Size                = "filesize";            // Gets file size
+    const Type                = "filetype";            // Gets file type
+    const Lock                = "flock";               // Portable advisory file locking
+    const NameMatch           = "fnmatch";             // Match filename against a pattern
+    const Open                = "fopen";               // Opens file or URL
+    const Passthru            = "fpassthru";           // Output all remaining data on a file pointer
+    const PutCsv              = "fputcsv";             // Format line as CSV and write to file pointer
+    const Puts                = "fputs";               // Alias of fwrite
+    const Read                = "fread";               // Binary-safe file read
+    const Scanf               = "fscanf";              // Parses input from a file according to a format
+    const Seek                = "fseek";               // Seeks on a file pointer
+    const FileStat            = "fstat";               // Gets information about a file using an open file pointer
+    const Tell                = "ftell";               // Returns the current position of the file read/write pointer
+    const Truncate            = "ftruncate";           // Truncates a file to a given length
+    const Write               = "fwrite";              // Binary-safe file write
+    const Glob                = "glob";                // Find pathnames matching a pattern
+    const IsDir               = "is_dir";              // Tells whether the filename is a directory
+    const IsExecutable        = "is_executable";       // Tells whether the filename is executable
+    const IsFile              = "is_file";             // Tells whether the filename is a regular file
+    const IsLink              = "is_link";             // Tells whether the filename is a symbolic link
+    const IsReadable          = "is_readable";         // Tells whether a file exists and is readable
+    const IsUploadedFile      = "is_uploaded_file";    // Tells whether the file was uploaded via HTTP POST
+    const IsWritable          = "is_writable";         // Tells whether the filename is writable
+    const IsWriteable         = "is_writeable";        // Alias of is_writable
+    const LinkChgrp           = "lchgrp";              // Changes group ownership of symlink
+    const LinkChown           = "lchown";              // Changes user ownership of symlink
+    const Link                = "link";                // Create a hard link
+    const LinkInfo            = "linkinfo";            // Gets information about a link
+    const LinkStat            = "lstat";               // Gives information about a file or symbolic link
+    const MakeDir             = "mkdir";               // Makes directory
+    const MoveUploadedFile    = "move_uploaded_file";  // Moves an uploaded file to a new location
+    const ParseIniFile        = "parse_ini_file";      // Parse a configuration file
+    const ParseIniString      = "parse_ini_string";    // Parse a configuration string
+    const PathInfo            = "pathinfo";            // Returns information about a file path
+    const ProcessClose        = "pclose";              // Closes process file pointer
+    const ProcessOpen         = "popen";               // Opens process file pointer
+    const ReadFile            = "readfile";            // Outputs a file
+    const Readlink            = "readlink";            // Returns the target of a symbolic link
+    const RealpathCacheGet    = "realpath_cache_get";  // Get realpath cache entries
+    const RealpathCacheSize   = "realpath_cache_size"; // Get realpath cache size
+    const Realpath            = "realpath";            // Returns canonicalized absolute pathname
+    const Rename              = "rename";              // Renames a file or directory
+    const Rewind              = "rewind";              // Rewind the position of a file pointer
+    const RemoveDir           = "rmdir";               // Removes directory
+    const SetFileBuffer       = "set_file_buffer";     // Alias of stream_set_write_buffer
+    const Stat                = "stat";                // Gives information about a file
+    const Symlink             = "symlink";             // Creates a symbolic link
+    const Tempnam             = "tempnam";             // Create file with unique file name
+    const Tmpfile             = "tmpfile";             // Creates a temporary file
+    const Touch               = "touch";               // Sets access and modification time of file
+    const Umask               = "umask";               // Changes the current umask
+    const Unlink              = "unlink";              // Deletes a file
+}
