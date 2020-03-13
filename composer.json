@@ -9,5 +9,10 @@
             "email": "ayg.muhammet@yahoo.com"
         }
     ],
+	"autoload": {
+        "psr-4": {
+            "BakteriyoFaj\\": "src/"
+        }
+    },
     "require": {}
 }
