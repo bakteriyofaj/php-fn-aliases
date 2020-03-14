@@ -14,5 +14,7 @@
             "BakteriyoFaj\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
 }
